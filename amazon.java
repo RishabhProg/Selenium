@@ -55,11 +55,11 @@ public class amazon {
 
                 // Enter email and password to sign in
                 WebElement emailInput = wait.until(ExpectedConditions.elementToBeClickable(By.id("ap_email")));
-                emailInput.sendKeys("8052225176");
+                emailInput.sendKeys("8904534938");//enter real email or number
                 emailInput.submit();
 
                 WebElement passwordInput = wait.until(ExpectedConditions.elementToBeClickable(By.id("ap_password")));
-                passwordInput.sendKeys("amazon4me");
+                passwordInput.sendKeys("xxxxxxx");//enter real password
                 passwordInput.submit();
 
                 // Click on the sign-in button
